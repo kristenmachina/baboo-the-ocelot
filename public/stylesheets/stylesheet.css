@@ -1,0 +1,51 @@
+@font-face { 
+    font-family: "Stonehenge";
+    src: url("/fonts/stonehen.ttf") format("truetype"),
+         url("/fonts/stonehen.woff");
+}
+@font-face { 
+    font-family: "Carolingia";
+    src: url("/fonts/carolingia.ttf") format("truetype"),
+         url("/fonts/carolingia.woff");
+}
+body {
+	background-color: #807559;
+	width: 900px;
+	margin: auto;
+	padding: 0;
+}
+ #header {
+	text-align: center;
+ }
+#title {
+	height: 100px;
+	color: #e5d1a1;
+	font-family: Stonehenge;
+	font-size: 150px;
+	display: inline-block;
+	text-shadow: 0px 10px 10px rgba(0,0,0,0.3);
+}
+ #navigation {
+	color: #131d4d;
+	display: inline-block;
+	font-family: Carolingia;
+	font-size: 30px;
+ }
+ #comicpane {
+	height: 1274px;
+	width: 900px;
+	margin: auto;
+	background-color: #4c4635;
+}
+#pagination {
+	color: #798df2;
+	font-size: 24px;
+	font-family: Carolingia;
+	text-align: center;
+}
+#comic {
+	width: 870px;
+	height: 1222px;
+	background-color: white;
+	margin: auto;
+}
