@@ -9,7 +9,8 @@
          url("/fonts/carolingia.woff");
 }
 body {
-	background-color: #807559;
+	background: linear-gradient(to bottom, #3b362d, #7c7260);
+    background: -webkit-linear-gradient(to bottom, #3b362d, #7c7260);
 	width: 900px;
 	margin: auto;
 	padding: 0;
@@ -19,25 +20,26 @@ body {
  }
 #title {
 	height: 100px;
-	color: #e5d1a1;
+	color: #e4d2b2;
 	font-family: Stonehenge;
 	font-size: 150px;
 	display: inline-block;
-	text-shadow: 0px 10px 10px rgba(0,0,0,0.3);
+	text-shadow: 0px 10px 10px rgba(0,0,0,0.5);
 }
  #navigation {
-	color: #131d4d;
+	color: #4f8be9;
 	display: inline-block;
 	font-family: Carolingia;
 	font-size: 30px;
+    text-shadow: 0px 5px 5px rgba(0,0,0,0.75);
 }
 #navigation a {
-    color: #131d4d;
+    color: #4f8be9;
     text-decoration: none;
-    transition-duration: 150ms;
+    transition-duration: 250ms;
 }
 #navigation a:hover {
-    color: #798df2;
+    color: #b2c6e6;
 }
 #navigation span {
     margin: 0 10px;
@@ -46,10 +48,10 @@ body {
 	height: 1274px;
 	width: 900px;
 	margin: auto;
-	background-color: #4c4635;
+	background-color: #1d180f;
 }
 .pagination {
-	color: #798df2;
+	color: #4f8be9;
 	font-size: 24px;
 	font-family: Carolingia;
 	text-align: center;
