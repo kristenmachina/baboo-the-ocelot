@@ -30,14 +30,25 @@ body {
 	display: inline-block;
 	font-family: Carolingia;
 	font-size: 30px;
- }
- #comicpane {
+}
+#navigation a {
+    color: #131d4d;
+    text-decoration: none;
+    transition-duration: 150ms;
+}
+#navigation a:hover {
+    color: #798df2;
+}
+#navigation span {
+    margin: 0 10px;
+}
+#comicpane {
 	height: 1274px;
 	width: 900px;
 	margin: auto;
 	background-color: #4c4635;
 }
-#pagination {
+.pagination {
 	color: #798df2;
 	font-size: 24px;
 	font-family: Carolingia;
