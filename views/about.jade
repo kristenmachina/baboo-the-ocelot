@@ -1,8 +1,19 @@
 extends layout
 
 block content
-    .pagination.
-        --First -Prev 1.01 Next- Last--
-    #comic
-    .pagination.
-        --First -Prev 1.01 Next- Last--
+    #about
+        h2 About
+        ul
+            li
+                a(href='/about/characters')
+                    img(src='/images/menucharacters.png')
+            li
+                a(href='/about/world')
+                    img(src='/images/menuworld.png')
+            li
+                a(href='/about/magic')
+                    img(src='/images/menumagic.png')
+            li
+                a(href='/about/lore')
+                    img(src='/images/menulore.png')
+    

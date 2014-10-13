@@ -9,15 +9,17 @@
          url("/fonts/carolingia.woff");
 }
 body {
-	background: linear-gradient(to bottom, #3b362d, #7c7260);
-    background: -webkit-linear-gradient(to bottom, #3b362d, #7c7260);
+	background-image: linear-gradient(to bottom, #3b362d, #7c7260);
+    background-repeat: no-repeat;
+    background-color: #7c7260;
 	width: 900px;
+    box-sizing: border-box;
 	margin: auto;
 	padding: 0;
 }
  #header {
 	text-align: center;
- }
+}
 #title {
 	height: 100px;
 	color: #e4d2b2;
@@ -27,7 +29,6 @@ body {
 	text-shadow: 0px 10px 10px rgba(0,0,0,0.5);
 }
  #navigation {
-	color: #4f8be9;
 	display: inline-block;
 	font-family: Carolingia;
 	font-size: 30px;
@@ -37,17 +38,20 @@ body {
     color: #4f8be9;
     text-decoration: none;
     transition-duration: 250ms;
-}
+}    
 #navigation a:hover {
     color: #b2c6e6;
 }
-#navigation span {
+#navigation a:not(:last-child)::after {
+    color: #4f8be9;
+    content: '|';
     margin: 0 10px;
 }
+
 #comicpane {
-	height: 1274px;
 	width: 900px;
 	margin: auto;
+    overflow: auto;
 	background-color: #1d180f;
 }
 .pagination {
@@ -61,4 +65,19 @@ body {
 	height: 1222px;
 	background-color: white;
 	margin: auto;
+}
+#about {
+    width: 870px;
+	background-color: white;
+	margin: 5px auto;
+    padding: 5px;
+}
+#about ul {
+    padding: 0;
+}
+#about li {
+    list-style-type: none;
+}
+#about ul, #about li, #about a, #about img {
+    width: 100%;
 }
